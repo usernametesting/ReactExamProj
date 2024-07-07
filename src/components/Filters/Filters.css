@@ -1,0 +1,81 @@
+.filters {
+  width: 200px;
+  padding: 20px;
+  /* background-color: lightgray; */
+  background-color: white;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  top: 200px;
+  left: 25%;
+  width: 50%;
+  height: 350px;
+  box-shadow: 0px 0px 15px 10px lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+button:first-child {
+  border-color: green;
+}
+
+
+.filter-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-group button {
+  padding: 5px;
+  width: 50px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.regions-select {
+  padding: 5px;
+  width: 160px;
+
+}
+
+label {
+  width: 100px;
+  text-align: center;
+}
+
+#add-filter-btn {
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: chartreuse;
+  border-color: transparent;
+  color: white;
+}
+
+
+button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+
+@media (max-width:600px) {
+  .filter-group {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

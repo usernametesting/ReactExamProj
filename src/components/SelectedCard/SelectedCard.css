@@ -1,0 +1,43 @@
+.country-info {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.country-info h2 {
+    color: #333;
+}
+.country-info .section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.country-info .section h3 {
+    color: #555;
+}
+.country-info .section p {
+    margin: 0;
+}
+
+.selected-card-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    padding: 50px 10px 10px 10px;
+}
+
+
+.selected-card-div img{
+    width: 200px;
+    height: 200px;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}

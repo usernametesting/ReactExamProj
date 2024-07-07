@@ -1,0 +1,53 @@
+/* -------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px;
+
+}
+
+.see-more-button {
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: chartreuse;
+  color: white;
+  border-color: transparent;
+}

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+    width: 90%;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
